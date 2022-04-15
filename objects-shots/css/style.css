@@ -1,0 +1,74 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:antiquewhite;
+  background-color: rgb(142	171	164);
+  align-items: center;
+  text-align: center;
+  
+  /* display: flex; */
+}
+#input{
+background-color: rgb(52	107	135	);
+padding-bottom: 1em;
+}
+#nameAndPhoto{
+  background-color: rgb(227	167	117	);
+  padding-bottom: 1em;
+}
+
+#ingredients{
+  background-color: rgb(219	117	74	);
+  padding-bottom: 1em;
+
+}
+
+li{
+  list-style-type: none;
+}
+
+#instructions{
+  background-color: rgb(21	44	83	);
+  padding-bottom: 1em;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+button{
+  /* background: antiquewhite; */
+  color: antiquewhite;
+  background-color: rgb(19	42	81	);
+  border-radius: 3px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+
+  /* margin: 2em; */
+}
+input{
+  background-color: antiquewhite;
+  border-radius: 3px;
+  border: none;
+  padding: 15px 32px;
+  color: rgb(19	42	81	);
+  font-size: 16px;
+}
