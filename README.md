@@ -1,2 +1,2 @@
 # 100Devs-Homework
-Homework files for 100 Devs
+Project files for 100 Devs training
